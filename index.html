@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>What Mythical Creature Are You?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>What Kind of Mythical Creature Are You?</h1>
 
+    <label for="sleep">How many hours of sleep do you get per night?</label>
+    <input type="number" id="sleep" min="1" max="12">
+
+    <p>Do you prefer the ocean or the sky?</p>
+    <label><input type="radio" name="element" value="ocean"> Ocean 🌊</label>
+    <label><input type="radio" name="element" value="sky"> Sky ☁️</label>
+
+    <button onclick="getResult()">Find Out!</button>
+
+    <h2 id="result-text"></h2>
+    <img id="result-img" alt="" style="display: none;">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+    
